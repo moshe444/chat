@@ -5,6 +5,7 @@ A chat program includes following functions.
 * Chat to a specific user (private chat)
 * Custom unique username
 * Tips for uses in or out
+
 ## How to use
 * Clone Repo
 ```Bash
