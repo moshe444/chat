@@ -4,7 +4,7 @@ A chat program includes following functions.
 * Chat to all users
 * Chat to a specific user (private chat)
 * Custom unique username
-* Tips for uses in or out
+* Tips for users in or out
 
 ## How to use
 * Clone Repo
