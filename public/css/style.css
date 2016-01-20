@@ -1,0 +1,153 @@
+html, body{
+  height: 100%;
+  overflow: hidden;
+}
+
+body > div{
+  height: 100%;
+}
+
+.chat-info{
+  width: 200px;
+  background-color: #a9bcc8;
+  float: left;
+}
+
+.chat-msgPool{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 40px;
+  overflow-y: auto;
+  word-break: break-all;
+}
+
+.msg-box{
+  padding: 10px 20px;
+}
+
+.msg-time{
+  color: #999999;
+}
+
+.msg-user{
+  position: relative;
+}
+
+.msg-user > span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.msg-info > div{
+  float: left;
+  margin-right: 5px;
+}
+
+.msg-info{
+  float: left;
+}
+
+.msg-icon, .user-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.msg-more{
+  position: absolute;
+  width: 100px;
+  list-style: none;
+  padding: 0;
+  border: 1px solid #777;
+  font-size: 12px;
+  display: none;
+  z-index: 2;
+}
+
+.msg-pChat{
+  padding: 5px;
+  background-color: #999;
+  cursor: pointer;
+}
+
+.msg-content-whisper{
+  color: #ff6ada;
+}
+
+.msg-pChat:hover{
+  color: white;
+}
+
+.chat-input{
+  position: absolute;
+  bottom: 0;
+  max-height: 40px;
+}
+
+.chat-to{
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  background-color: #ffa609;
+}
+
+.chat-to > img{
+  width: 15px;
+  margin: -2px 0 0 5px;
+  cursor: pointer;
+}
+
+.chat-list{
+  width: 200px;
+  background-color: #a9bcc8;
+  float: right;
+  overflow-y: auto;
+}
+
+.userBox{
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.userBox > div{
+  float: left;
+  margin-right: 5px;
+}
+
+.chat-body{
+  margin: 0 200px 0 200px;
+  background-color: #ccc;
+  position: relative;
+}
+
+.loginArea{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: 99;
+}
+
+.login-group{
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.chat-sys-info{
+  text-align: center;
+  color: #555555;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+
+.chat-sys-info > span{
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO Chat Room</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div class="chat-info"></div>
+  <div class="chat-list"></div>
+  <div class="chat-body">
+    <div class="chat-msgPool">
+      <div class="chat-msgWrapper"></div>
+    </div>
+    <div class="chat-input input-group">
+      <div class="chat-to">
+        Whisper to
+        <span>SoupGe</span>
+        <img src="img/close.png">
+      </div>
+      <input id="msg-input" type="text" class="form-control">
+      <span class="input-group-btn">
+        <button id="msg-send" class="btn btn-default" type="button">Send</button>
+      </span>
+    </div>
+  </div>
+  <div class="loginArea">
+    <div class="input-group login-group">
+      <input id="login-name" maxlength="10" type="text" class="form-control" placeholder="Please type a name">
+      <span class="input-group-btn">
+        <button id="login" class="btn btn-default" type="button">Go</button>
+      </span>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/socket.io.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
